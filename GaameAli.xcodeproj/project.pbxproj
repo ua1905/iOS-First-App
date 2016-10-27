@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8C85601CFD7F29007B481B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8C855F1CFD7F29007B481B /* main.m */; };
+		EC8C85631CFD7F29007B481B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8C85621CFD7F29007B481B /* AppDelegate.m */; };
+		EC8C85661CFD7F29007B481B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8C85651CFD7F29007B481B /* GameScene.m */; };
+		EC8C85681CFD7F29007B481B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC8C85671CFD7F29007B481B /* GameScene.sks */; };
+		EC8C856B1CFD7F29007B481B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8C856A1CFD7F29007B481B /* GameViewController.m */; };
+		EC8C856E1CFD7F29007B481B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8C856C1CFD7F29007B481B /* Main.storyboard */; };
+		EC8C85701CFD7F29007B481B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8C856F1CFD7F29007B481B /* Images.xcassets */; };
+		EC8C85731CFD7F29007B481B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC8C85711CFD7F29007B481B /* LaunchScreen.xib */; };
+		EC8C857F1CFD7F29007B481B /* GaameAliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8C857E1CFD7F29007B481B /* GaameAliTests.m */; };
+		EC8C858B1CFD831C007B481B /* sprites.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8C858A1CFD831C007B481B /* sprites.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8C85791CFD7F29007B481B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8C85521CFD7F29007B481B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8C85591CFD7F29007B481B;
+			remoteInfo = GaameAli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8C855A1CFD7F29007B481B /* GaameAli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaameAli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C855E1CFD7F29007B481B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8C855F1CFD7F29007B481B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8C85611CFD7F29007B481B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC8C85621CFD7F29007B481B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC8C85641CFD7F29007B481B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		EC8C85651CFD7F29007B481B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		EC8C85671CFD7F29007B481B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EC8C85691CFD7F29007B481B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		EC8C856A1CFD7F29007B481B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		EC8C856D1CFD7F29007B481B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8C856F1CFD7F29007B481B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC8C85721CFD7F29007B481B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC8C85781CFD7F29007B481B /* GaameAliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaameAliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C857D1CFD7F29007B481B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8C857E1CFD7F29007B481B /* GaameAliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaameAliTests.m; sourceTree = "<group>"; };
+		EC8C858A1CFD831C007B481B /* sprites.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = sprites.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8C85571CFD7F29007B481B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C85751CFD7F29007B481B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8C85511CFD7F29007B481B = {
+			isa = PBXGroup;
+			children = (
+				EC8C855C1CFD7F29007B481B /* GaameAli */,
+				EC8C857B1CFD7F29007B481B /* GaameAliTests */,
+				EC8C855B1CFD7F29007B481B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8C855B1CFD7F29007B481B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C855A1CFD7F29007B481B /* GaameAli.app */,
+				EC8C85781CFD7F29007B481B /* GaameAliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8C855C1CFD7F29007B481B /* GaameAli */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C85611CFD7F29007B481B /* AppDelegate.h */,
+				EC8C85621CFD7F29007B481B /* AppDelegate.m */,
+				EC8C85641CFD7F29007B481B /* GameScene.h */,
+				EC8C85651CFD7F29007B481B /* GameScene.m */,
+				EC8C85671CFD7F29007B481B /* GameScene.sks */,
+				EC8C85691CFD7F29007B481B /* GameViewController.h */,
+				EC8C856A1CFD7F29007B481B /* GameViewController.m */,
+				EC8C856C1CFD7F29007B481B /* Main.storyboard */,
+				EC8C856F1CFD7F29007B481B /* Images.xcassets */,
+				EC8C85711CFD7F29007B481B /* LaunchScreen.xib */,
+				EC8C855D1CFD7F29007B481B /* Supporting Files */,
+				EC8C858A1CFD831C007B481B /* sprites.xcassets */,
+			);
+			path = GaameAli;
+			sourceTree = "<group>";
+		};
+		EC8C855D1CFD7F29007B481B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C855E1CFD7F29007B481B /* Info.plist */,
+				EC8C855F1CFD7F29007B481B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8C857B1CFD7F29007B481B /* GaameAliTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C857E1CFD7F29007B481B /* GaameAliTests.m */,
+				EC8C857C1CFD7F29007B481B /* Supporting Files */,
+			);
+			path = GaameAliTests;
+			sourceTree = "<group>";
+		};
+		EC8C857C1CFD7F29007B481B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C857D1CFD7F29007B481B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8C85591CFD7F29007B481B /* GaameAli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8C85821CFD7F29007B481B /* Build configuration list for PBXNativeTarget "GaameAli" */;
+			buildPhases = (
+				EC8C85561CFD7F29007B481B /* Sources */,
+				EC8C85571CFD7F29007B481B /* Frameworks */,
+				EC8C85581CFD7F29007B481B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaameAli;
+			productName = GaameAli;
+			productReference = EC8C855A1CFD7F29007B481B /* GaameAli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8C85771CFD7F29007B481B /* GaameAliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8C85851CFD7F29007B481B /* Build configuration list for PBXNativeTarget "GaameAliTests" */;
+			buildPhases = (
+				EC8C85741CFD7F29007B481B /* Sources */,
+				EC8C85751CFD7F29007B481B /* Frameworks */,
+				EC8C85761CFD7F29007B481B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8C857A1CFD7F29007B481B /* PBXTargetDependency */,
+			);
+			name = GaameAliTests;
+			productName = GaameAliTests;
+			productReference = EC8C85781CFD7F29007B481B /* GaameAliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8C85521CFD7F29007B481B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = etudiant;
+				TargetAttributes = {
+					EC8C85591CFD7F29007B481B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EC8C85771CFD7F29007B481B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EC8C85591CFD7F29007B481B;
+					};
+				};
+			};
+			buildConfigurationList = EC8C85551CFD7F29007B481B /* Build configuration list for PBXProject "GaameAli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8C85511CFD7F29007B481B;
+			productRefGroup = EC8C855B1CFD7F29007B481B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8C85591CFD7F29007B481B /* GaameAli */,
+				EC8C85771CFD7F29007B481B /* GaameAliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8C85581CFD7F29007B481B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C85731CFD7F29007B481B /* LaunchScreen.xib in Resources */,
+				EC8C85701CFD7F29007B481B /* Images.xcassets in Resources */,
+				EC8C858B1CFD831C007B481B /* sprites.xcassets in Resources */,
+				EC8C85681CFD7F29007B481B /* GameScene.sks in Resources */,
+				EC8C856E1CFD7F29007B481B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C85761CFD7F29007B481B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8C85561CFD7F29007B481B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C856B1CFD7F29007B481B /* GameViewController.m in Sources */,
+				EC8C85631CFD7F29007B481B /* AppDelegate.m in Sources */,
+				EC8C85661CFD7F29007B481B /* GameScene.m in Sources */,
+				EC8C85601CFD7F29007B481B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C85741CFD7F29007B481B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C857F1CFD7F29007B481B /* GaameAliTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8C857A1CFD7F29007B481B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8C85591CFD7F29007B481B /* GaameAli */;
+			targetProxy = EC8C85791CFD7F29007B481B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8C856C1CFD7F29007B481B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8C856D1CFD7F29007B481B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8C85711CFD7F29007B481B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8C85721CFD7F29007B481B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8C85801CFD7F29007B481B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8C85811CFD7F29007B481B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8C85831CFD7F29007B481B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GaameAli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC8C85841CFD7F29007B481B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GaameAli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC8C85861CFD7F29007B481B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GaameAliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaameAli.app/GaameAli";
+			};
+			name = Debug;
+		};
+		EC8C85871CFD7F29007B481B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GaameAliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaameAli.app/GaameAli";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8C85551CFD7F29007B481B /* Build configuration list for PBXProject "GaameAli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C85801CFD7F29007B481B /* Debug */,
+				EC8C85811CFD7F29007B481B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8C85821CFD7F29007B481B /* Build configuration list for PBXNativeTarget "GaameAli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C85831CFD7F29007B481B /* Debug */,
+				EC8C85841CFD7F29007B481B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC8C85851CFD7F29007B481B /* Build configuration list for PBXNativeTarget "GaameAliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C85861CFD7F29007B481B /* Debug */,
+				EC8C85871CFD7F29007B481B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8C85521CFD7F29007B481B /* Project object */;
+}
